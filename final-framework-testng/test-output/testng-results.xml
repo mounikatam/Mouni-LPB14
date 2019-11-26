@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38106" started-at="2019-11-25T19:00:57Z" finished-at="2019-11-25T19:01:35Z">
+  <suite name="Default suite" duration-ms="28412" started-at="2019-11-26T04:16:38Z" finished-at="2019-11-26T04:17:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38106" started-at="2019-11-25T19:00:57Z" finished-at="2019-11-25T19:01:35Z">
+    <test name="Default test" duration-ms="28412" started-at="2019-11-26T04:16:38Z" finished-at="2019-11-26T04:17:06Z">
       <class name="com.training.sanity.tests.RetailEditaccount">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="setUpBeforeClass" is-config="true" duration-ms="8" started-at="2019-11-26T00:30:57Z" finished-at="2019-11-26T00:30:57Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="setUpBeforeClass" is-config="true" duration-ms="7" started-at="2019-11-26T09:46:38Z" finished-at="2019-11-26T09:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="setUp" is-config="true" duration-ms="21889" started-at="2019-11-26T00:30:57Z" finished-at="2019-11-26T00:31:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="setUp" is-config="true" duration-ms="14877" started-at="2019-11-26T09:46:38Z" finished-at="2019-11-26T09:46:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validRetailTest()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="validRetailTest" duration-ms="15188" started-at="2019-11-26T00:31:19Z" finished-at="2019-11-26T00:31:34Z">
+        <test-method status="PASS" signature="validRetailTest()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="validRetailTest" duration-ms="12520" started-at="2019-11-26T09:46:53Z" finished-at="2019-11-26T09:47:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validRetailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="tearDown" is-config="true" duration-ms="1012" started-at="2019-11-26T00:31:34Z" finished-at="2019-11-26T00:31:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="tearDown" is-config="true" duration-ms="1000" started-at="2019-11-26T09:47:05Z" finished-at="2019-11-26T09:47:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -122,8 +122,7 @@ public class RetailEditaccountPOM {
 			String text=msg.getText();
 			//Assert.assertEquals(text,expectedText);
 			
-			System.out.println("Success: Your account has been successfully updated.");
-					this.msg.getText();
+			System.out.println("Success: Your account has been successfully updated.="+this.msg.getText());
 		}
 		
 

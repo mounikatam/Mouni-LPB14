@@ -58,13 +58,13 @@ public class RetailEditaccount {
 	@Test
 	public void validRetailTest() throws InterruptedException {
 		retaileditaccountPOM.clickUserIcon();
-		retaileditaccountPOM.sendUserName("mehadi123@gmail.com");
+		retaileditaccountPOM.sendUserName("manzoor@gmail.com");
 		retaileditaccountPOM.sendPassword("manzoor");
 		retaileditaccountPOM.clickLoginBtn();
 		retaileditaccountPOM.Editaccount();
 		retaileditaccountPOM.sendFirstName("manzoor");
 		retaileditaccountPOM.sendLastName("mehadi");
-		retaileditaccountPOM.sendEmail("manzoor@gmail.com");
+		retaileditaccountPOM.sendEmail("mehadi123@gmail.com");
 		retaileditaccountPOM.sendTelephone("8906543210");
 		retaileditaccountPOM.clickContinueBtn();
 		retaileditaccountPOM.displayMessage();
