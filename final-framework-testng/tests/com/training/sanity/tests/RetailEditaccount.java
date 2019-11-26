@@ -52,19 +52,19 @@ public class RetailEditaccount {
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
 		
-		//driver.quit();
+		driver.quit();
 	}
 	
 	@Test
 	public void validRetailTest() throws InterruptedException {
 		retaileditaccountPOM.clickUserIcon();
-		retaileditaccountPOM.sendUserName("manzoor@gmail.com");
+		retaileditaccountPOM.sendUserName("mehadi123@gmail.com");
 		retaileditaccountPOM.sendPassword("manzoor");
 		retaileditaccountPOM.clickLoginBtn();
 		retaileditaccountPOM.Editaccount();
 		retaileditaccountPOM.sendFirstName("manzoor");
 		retaileditaccountPOM.sendLastName("mehadi");
-		retaileditaccountPOM.sendEmail("mehadi123@gmail.com");
+		retaileditaccountPOM.sendEmail("manzoor@gmail.com");
 		retaileditaccountPOM.sendTelephone("8906543210");
 		retaileditaccountPOM.clickContinueBtn();
 		retaileditaccountPOM.displayMessage();

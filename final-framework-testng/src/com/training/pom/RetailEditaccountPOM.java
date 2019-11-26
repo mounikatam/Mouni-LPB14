@@ -54,16 +54,7 @@ public class RetailEditaccountPOM {
 	@FindBy(xpath="//input[@value='Continue']")
 	private WebElement continueBtn; 
 	
-	
-	//driver.findElement(By.xpath("html/body/div[1]/div/div/div")).getText();
-
-	 
-	
-
-	//@FindBy(partialLinkText="Success: Your account has been successfully updated.")
-
-	
-	@FindBy(id="System_nyHsmShk")
+	@FindBy(xpath="//div[@class='alert alert-success']")
 	private WebElement msg;
 	
 	
@@ -119,10 +110,7 @@ public class RetailEditaccountPOM {
 		}
 		
 		public void displayMessage() {
-			String text=msg.getText();
-			//Assert.assertEquals(text,expectedText);
-			
-			System.out.println("Success: Your account has been successfully updated.="+this.msg.getText());
+			System.out.println("Success: Your account has="+this.msg.getText());
 		}
 		
 
