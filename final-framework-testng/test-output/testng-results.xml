@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41402" started-at="2019-11-26T10:46:08Z" finished-at="2019-11-26T10:46:50Z">
+  <suite name="Default suite" duration-ms="40005" started-at="2019-11-27T04:20:16Z" finished-at="2019-11-27T04:20:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41402" started-at="2019-11-26T10:46:08Z" finished-at="2019-11-26T10:46:50Z">
-      <class name="com.training.sanity.tests.RetailEditaccount">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="setUpBeforeClass" is-config="true" duration-ms="27" started-at="2019-11-26T16:16:08Z" finished-at="2019-11-26T16:16:09Z">
+    <test name="Default test" duration-ms="40005" started-at="2019-11-27T04:20:16Z" finished-at="2019-11-27T04:20:56Z">
+      <class name="com.training.sanity.tests.RetailChangepassword">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RetailChangepassword@28f67ac7]" name="setUpBeforeClass" is-config="true" duration-ms="9" started-at="2019-11-27T09:50:16Z" finished-at="2019-11-27T09:50:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="setUp" is-config="true" duration-ms="22315" started-at="2019-11-26T16:16:09Z" finished-at="2019-11-26T16:16:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RetailChangepassword@28f67ac7]" name="setUp" is-config="true" duration-ms="18798" started-at="2019-11-27T09:50:16Z" finished-at="2019-11-27T09:50:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validRetailTest()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="validRetailTest" duration-ms="18021" started-at="2019-11-26T16:16:31Z" finished-at="2019-11-26T16:16:49Z">
+        <test-method status="PASS" signature="validRetailTest()[pri:0, instance:com.training.sanity.tests.RetailChangepassword@28f67ac7]" name="validRetailTest" duration-ms="19359" started-at="2019-11-27T09:50:35Z" finished-at="2019-11-27T09:50:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validRetailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RetailEditaccount@28f67ac7]" name="tearDown" is-config="true" duration-ms="1018" started-at="2019-11-26T16:16:49Z" finished-at="2019-11-26T16:16:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RetailChangepassword@28f67ac7]" name="tearDown" is-config="true" duration-ms="1830" started-at="2019-11-27T09:50:54Z" finished-at="2019-11-27T09:50:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RetailEditaccount -->
+      </class> <!-- com.training.sanity.tests.RetailChangepassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
